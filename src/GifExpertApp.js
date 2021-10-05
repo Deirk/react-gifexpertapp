@@ -4,6 +4,7 @@ import { GifGrid } from './components/GifGrid';
 
 const GifExpertApp = ({defaultCategories = []}) => {
 
+// Inicio del componente
     const [categories, setCategories] = useState(defaultCategories);
 
     return (
